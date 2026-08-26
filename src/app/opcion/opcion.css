@@ -1,0 +1,64 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+.opcion-wrap {
+  height: 100%;
+  counter-increment: opcion-letra;
+}
+
+.opcion-btn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: left;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #17122b;
+  background: #f4f1fb;
+  border: 2px solid transparent;
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+  transition: transform 0.12s ease, border-color 0.12s ease, background 0.12s ease;
+}
+
+.opcion-btn::before {
+  content: counter(opcion-letra, upper-alpha);
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 8px;
+  background: #ffc53d;
+  color: #17122b;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.opcion-btn:hover {
+  border-color: #ff4d8d;
+  background: #ffffff;
+  transform: translateY(-2px);
+}
+
+.opcion-btn:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.opcion-btn:focus-visible {
+  outline: 3px solid #ff4d8d;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .opcion-btn {
+    transition: none;
+  }
+}

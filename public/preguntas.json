@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "texto": "¿Cuál es la capital de Francia?",
+    "opciones": ["Madrid", "París", "Berlín", "Roma"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 2,
+    "texto": "¿Cuál es el río más largo del mundo?",
+    "opciones": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 3,
+    "texto": "¿Quién pintó la Mona Lisa?",
+    "opciones": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+    "respuestaCorrecta": 2
+  },
+  {
+    "id": 4,
+    "texto": "¿Cuál es el desierto más grande del mundo?",
+    "opciones": ["Sahara", "Gobi", "Kalahari", "Antártico"],
+    "respuestaCorrecta": 3
+  },
+  {
+    "id": 5,
+    "texto": "¿En qué país se encuentra la Gran Muralla China?",
+    "opciones": ["Japón", "China", "Corea del Sur", "Mongolia"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 6,
+    "texto": "¿Quién esculpió el David?",
+    "opciones": ["Donatello", "Miguel Ángel", "Bernini", "Rodin"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 7,
+    "texto": "¿Cuál es la montaña más alta del mundo?",
+    "opciones": ["K2", "Everest", "Kilimanjaro", "Aconcagua"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 8,
+    "texto": "¿En qué año comenzó la Primera Guerra Mundial?",
+    "opciones": ["1912", "1914", "1918", "1920"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 9,
+    "texto": "¿Qué civilización construyó Machu Picchu?",
+    "opciones": ["Maya", "Azteca", "Inca", "Olmeca"],
+    "respuestaCorrecta": 2
+  },
+  {
+    "id": 10,
+    "texto": "¿Cuál es el océano más grande del mundo?",
+    "opciones": ["Atlántico", "Índico", "Pacífico", "Ártico"],
+    "respuestaCorrecta": 2
+  },
+  {
+    "id": 11,
+    "texto": "¿Quién pintó 'La noche estrellada'?",
+    "opciones": ["Vincent van Gogh", "Salvador Dalí", "Edvard Munch", "Paul Cézanne"],
+    "respuestaCorrecta": 0
+  },
+  {
+    "id": 12,
+    "texto": "¿Qué país tiene más husos horarios?",
+    "opciones": ["Rusia", "Estados Unidos", "China", "Francia"],
+    "respuestaCorrecta": 3
+  },
+  {
+    "id": 13,
+    "texto": "¿En qué ciudad se encuentra el Coliseo?",
+    "opciones": ["Atenas", "Roma", "Nápoles", "Florencia"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 14,
+    "texto": "¿Quién fue el primer emperador de Roma?",
+    "opciones": ["Julio César", "Augusto", "Nerón", "Trajano"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 15,
+    "texto": "¿Cuál es el país más poblado del mundo?",
+    "opciones": ["China", "India", "Estados Unidos", "Indonesia"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 16,
+    "texto": "¿Qué artista es conocido por el movimiento cubista junto a Picasso?",
+    "opciones": ["Georges Braque", "Henri Matisse", "Joan Miró", "Wassily Kandinsky"],
+    "respuestaCorrecta": 0
+  },
+  {
+    "id": 17,
+    "texto": "¿En qué continente se encuentra Egipto?",
+    "opciones": ["Asia", "África", "Europa", "Oceanía"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 18,
+    "texto": "¿Qué muro cayó en 1989?",
+    "opciones": [
+      "Muro de Adriano",
+      "Muro de Berlín",
+      "Gran Muralla China",
+      "Muro de las Lamentaciones"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 19,
+    "texto": "¿Cuál es el país más grande del mundo por superficie?",
+    "opciones": ["Canadá", "China", "Estados Unidos", "Rusia"],
+    "respuestaCorrecta": 3
+  },
+  {
+    "id": 20,
+    "texto": "¿Quién pintó 'Las Meninas'?",
+    "opciones": ["Francisco de Goya", "Diego Velázquez", "El Greco", "Bartolomé Murillo"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 21,
+    "texto": "¿Qué imperio construyó el Coliseo?",
+    "opciones": ["Imperio griego", "Imperio romano", "Imperio bizantino", "Imperio persa"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 22,
+    "texto": "¿Cuál es el lago más grande del mundo por superficie?",
+    "opciones": ["Lago Baikal", "Lago Victoria", "Mar Caspio", "Lago Superior"],
+    "respuestaCorrecta": 2
+  },
+  {
+    "id": 23,
+    "texto": "¿En qué siglo vivió Leonardo da Vinci?",
+    "opciones": ["Siglo XIV", "Siglo XV", "Siglo XVI", "Siglo XVII"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 24,
+    "texto": "¿Qué país tiene forma de bota en el mapa?",
+    "opciones": ["España", "Grecia", "Italia", "Portugal"],
+    "respuestaCorrecta": 2
+  },
+  {
+    "id": 25,
+    "texto": "¿Quién lideró la independencia de la India?",
+    "opciones": ["Mahatma Gandhi", "Nehru", "Subhas Chandra Bose", "Ambedkar"],
+    "respuestaCorrecta": 0
+  },
+  {
+    "id": 26,
+    "texto": "¿Cuál es la cordillera más larga del mundo?",
+    "opciones": ["Himalaya", "Andes", "Rocosas", "Alpes"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 27,
+    "texto": "¿Qué pintor cortó su propia oreja?",
+    "opciones": ["Paul Gauguin", "Vincent van Gogh", "Edvard Munch", "Henri de Toulouse-Lautrec"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 28,
+    "texto": "¿En qué año llegó el hombre a la Luna?",
+    "opciones": ["1965", "1969", "1972", "1959"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 29,
+    "texto": "¿Cuál es la capital de Japón?",
+    "opciones": ["Kioto", "Osaka", "Tokio", "Yokohama"],
+    "respuestaCorrecta": 2
+  },
+  {
+    "id": 30,
+    "texto": "¿Qué escultura griega representa a una diosa sin brazos?",
+    "opciones": ["Venus de Milo", "Victoria alada de Samotracia", "Laocoonte", "Discóbolo"],
+    "respuestaCorrecta": 0
+  },
+  {
+    "id": 31,
+    "texto": "¿Qué faraón egipcio es famoso por su máscara funeraria de oro?",
+    "opciones": ["Ramsés II", "Tutankamón", "Akenatón", "Keops"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 32,
+    "texto": "¿Cuál es el país más pequeño del mundo?",
+    "opciones": ["Mónaco", "San Marino", "Ciudad del Vaticano", "Liechtenstein"],
+    "respuestaCorrecta": 2
+  },
+  {
+    "id": 33,
+    "texto": "¿Quién pintó el techo de la Capilla Sixtina?",
+    "opciones": ["Rafael", "Miguel Ángel", "Leonardo da Vinci", "Botticelli"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 34,
+    "texto": "¿Qué revolución comenzó en 1789?",
+    "opciones": [
+      "Revolución Rusa",
+      "Revolución Francesa",
+      "Revolución Industrial",
+      "Revolución Americana"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 35,
+    "texto": "¿Cuál es el estrecho que separa Europa de África en su punto más cercano?",
+    "opciones": [
+      "Estrecho de Gibraltar",
+      "Estrecho de Bering",
+      "Estrecho de Ormuz",
+      "Estrecho de Magallanes"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "id": 36,
+    "texto": "¿Qué movimiento artístico fundó Salvador Dalí junto a otros?",
+    "opciones": ["Surrealismo", "Impresionismo", "Fauvismo", "Expresionismo"],
+    "respuestaCorrecta": 0
+  },
+  {
+    "id": 37,
+    "texto": "¿Qué antigua civilización construyó las pirámides de Giza?",
+    "opciones": ["Mesopotamia", "Antiguo Egipto", "Fenicia", "Persia"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 38,
+    "texto": "¿Cuál es el país con más volcanes activos?",
+    "opciones": ["Japón", "Indonesia", "Estados Unidos", "Chile"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 39,
+    "texto": "¿En qué museo se encuentra la Mona Lisa?",
+    "opciones": ["Museo del Prado", "Museo Británico", "Museo del Louvre", "Museo Metropolitano"],
+    "respuestaCorrecta": 2
+  },
+  {
+    "id": 40,
+    "texto": "¿Qué imperio fue gobernado por Gengis Kan?",
+    "opciones": ["Imperio otomano", "Imperio mongol", "Imperio persa", "Imperio bizantino"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 41,
+    "texto": "¿Cuál es la isla más grande del mundo?",
+    "opciones": ["Madagascar", "Groenlandia", "Borneo", "Nueva Guinea"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 42,
+    "texto": "¿Quién pintó 'El grito'?",
+    "opciones": ["Edvard Munch", "Gustav Klimt", "Egon Schiele", "James Ensor"],
+    "respuestaCorrecta": 0
+  },
+  {
+    "id": 43,
+    "texto": "¿Qué reina gobernó Inglaterra durante la era victoriana?",
+    "opciones": ["Isabel I", "María I", "Victoria", "Ana"],
+    "respuestaCorrecta": 2
+  },
+  {
+    "id": 44,
+    "texto": "¿En qué continente se encuentra el desierto del Atacama?",
+    "opciones": ["África", "Asia", "América del Sur", "Oceanía"],
+    "respuestaCorrecta": 2
+  },
+  {
+    "id": 45,
+    "texto": "¿Quién diseñó la Sagrada Familia en Barcelona?",
+    "opciones": ["Antoni Gaudí", "Rafael Guastavino", "Lluís Domènech", "Josep Puig"],
+    "respuestaCorrecta": 0
+  },
+  {
+    "id": 46,
+    "texto": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
+    "opciones": [
+      "Tratado de Versalles",
+      "Tratado de Utrecht",
+      "Tratado de Tordesillas",
+      "Tratado de Westfalia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "id": 47,
+    "texto": "¿Cuál es el río más largo de Europa?",
+    "opciones": ["Danubio", "Volga", "Rin", "Ródano"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 48,
+    "texto": "¿Qué pintor es conocido por sus obras con relojes derretidos?",
+    "opciones": ["René Magritte", "Salvador Dalí", "Joan Miró", "Max Ernst"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 49,
+    "texto": "¿Qué antigua ciudad fue sepultada por la erupción del Vesubio?",
+    "opciones": ["Cartago", "Pompeya", "Troya", "Micenas"],
+    "respuestaCorrecta": 1
+  },
+  {
+    "id": 50,
+    "texto": "¿Cuál es la capital de Australia?",
+    "opciones": ["Sídney", "Melbourne", "Canberra", "Perth"],
+    "respuestaCorrecta": 2
+  }
+]

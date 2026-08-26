@@ -1,0 +1,16 @@
+:host {
+  display: block;
+}
+
+.resultado-text {
+  display: inline-block;
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #17122b;
+  background: #ffc53d;
+  padding: 0.4rem 1.1rem;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
