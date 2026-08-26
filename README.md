@@ -1,59 +1,67 @@
-# SimpleQuiz
+#Instrucciones
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.4.
+## 1. Descargar el esqueleto
 
-## Development server
+Cree un fork del repositorio: 
+https://github.com/mar-san1/simpleQuizEsqueleto
 
-To start a local development server, run:
+Ejecute la aplicación usando `ng serve`
 
-```bash
-ng serve
+## 2. Crear environments
+
+Cree los environments con el siguiente contenido.
+
+```typescript
+export const environment = {
+  production: false,
+  gistURL: 'http://localhost:4200/preguntas.json',
+};
+```
+Para el environment de producción, la propiedad `production` debería ser `true`.
+
+
+## 3. Configure el HTTPClient y httpRequest
+
+Configure HttpClient para poder usar httpRequest.
+
+Luego, en `app.ts`, modifique el código para inicializar el recurso de las preguntas.
+
+```typescript
+  preguntasResource = httpResource<Pregunta[]>(() => environment.gistURL);
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 4. Plantilla opciones
 
-## Code scaffolding
+Cree las plantillas html para mostrar una opción en `opcion.html`. 
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```html
+<div class="opcion-wrap">
+    <button class="opcion-btn">Texto opcion</button>
+</div>
 ```
+## 5. Ajustar plantillas
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Modifique la plantilla `app.html` para que muestre el componente de opciones y el componente de los resultados.
 
-```bash
-ng generate --help
-```
+## 6. Mostrar la información correcta
 
-## Building
+### 6.1 Empezar
 
-To build the project run:
+Haga los ajustes en la plantilla `app.html` para que al hacerle click al botón de empezar, se ejecute el método `empezar()`.
 
-```bash
-ng build
-```
+### 6.2 Resultados
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Modifique el componente de resultados para que reciba la puntuación y el total de preguntas.  Haga los ajustes en la plantilla para mostrar estos dos valores y ajuste `app.html` para enviar la información necesaria.
 
-## Running unit tests
+### 6.3 Opción
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Modifique el componente de opcion para que reciba el texto de la opción y el número de la opción.  Haga los ajustes en la plantilla para mostrar el texto de la opción y para que al hacerle click al botón se seleccione la opción con el número adecuado.
 
-```bash
-ng test
-```
+Haga los ajustes en la plantilla `app.html` para pasarle al componente estos dos valores.
 
-## Running end-to-end tests
+Haga los ajustes también para que al seleccionar una opción se llame al método `verificarRespuesta`.
 
-For end-to-end (e2e) testing, run:
+## 7. Fin del taller
 
-```bash
-ng e2e
-```
+Verifique que todo esté funcionando y haga los ajustes necesarios. Por ejemplo, no deberían mostrarse preguntas antes de empezar, y no deberían mostrarse después de haber terminado.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
