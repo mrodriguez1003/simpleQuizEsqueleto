@@ -6,4 +6,7 @@ import { Component, input } from '@angular/core';
   styleUrl: './resultados.css',
   templateUrl: './resultados.html',
 })
-export class Resultados {}
+export class Resultados {
+  puntos = input<number>();
+  total = input<number>();
+}

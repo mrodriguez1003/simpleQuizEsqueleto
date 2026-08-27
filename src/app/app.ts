@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { Pregunta } from '../modelo/pregunta.modelo';
 import { Opcion } from './opcion/opcion';
 import { Resultados } from './resultados/resultados';
+import { environment } from '../environments/environment';
+import { httpResource } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -10,8 +12,7 @@ import { Resultados } from './resultados/resultados';
   styleUrl: './app.css',
 })
 export class App {
-  preguntasResource = null as any; // Placeholder para el resource de preguntas, que debería ser inyectado o inicializado adecuadamente
-
+  preguntasResource =  httpResource<Pregunta[]>(() => environment.gistURL);
   preguntas: Pregunta[] = [];
   preguntasUsadas: Set<number> = new Set();
   posicionActual = 0;
@@ -20,6 +21,7 @@ export class App {
   maxPreguntas = 5;
 
   verificarRespuesta(respuestaSeleccionada: number): void {
+    console.log('Respuesta seleccionada:', respuestaSeleccionada);
     if (this.preguntaActual) {
       if (respuestaSeleccionada === this.preguntaActual.respuestaCorrecta) {
         this.puntuacion++;
@@ -34,6 +36,7 @@ export class App {
   }
 
   empezar(): void {
+    console.log('Empezando el quiz...');
     this.preguntas = this.preguntasResource.value() || [];
     this.preguntasUsadas = new Set();
     this.posicionActual = 0;

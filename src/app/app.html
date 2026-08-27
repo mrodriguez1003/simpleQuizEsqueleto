@@ -1,11 +1,16 @@
 <div class="quiz-shell">
-  Puntuacion ...
+  <app-resultados [puntos]="puntuacion" [total]="maxPreguntas"></app-resultados>
 
+  @if(preguntaActual)
+  {
   <div class="quiz-card">
-    <h2 class="quiz-question">una pregunta ...</h2>
-    <div class="quiz-options">
-      opcion 1
-    </div>
+    <h2 class="quiz-question">{{preguntaActual.texto}}</h2>
+    @for(opcion of preguntaActual.opciones; track $index)
+    {
+      <app-opcion [texto] = "opcion" [numero] = "$index" (seleccionarOpcion) = "verificarRespuesta($event)"></app-opcion>
+    }
+      
   </div>
-  <button class="quiz-start">Empezar</button>
+  }
+  <button class="quiz-start" (click)="empezar()"> Empezar</button>
 </div>

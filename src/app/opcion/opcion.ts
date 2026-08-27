@@ -6,4 +6,9 @@ import { Component, input, output } from '@angular/core';
   styleUrl: './opcion.css',
   templateUrl: './opcion.html',
 })
-export class Opcion {}
+export class Opcion {
+  texto = input<string>();
+  numero = input<number>(0);
+
+  seleccionarOpcion = output<number>();
+}
